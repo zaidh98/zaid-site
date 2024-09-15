@@ -1,0 +1,14 @@
+{% assign limit = include.limit | default: 10 %}
+{% if site.data.social %}
+<div class="social" id="social">
+  {% for social in site.data.social limit: limit %}
+  <a href="{{ social.url }}" target="blank" title="{{ social.title }}">
+    {% if social.fa_icon == "custom-huggingface" %}
+      <img src="/assets/images/hf-logo.svg" alt="Hugging Face" width="25" height="35">
+    {% else %}
+      <i class="{{ social.fa_icon }}"></i>
+    {% endif %}
+  </a>
+  {% endfor %}
+</div>
+{% endif %}

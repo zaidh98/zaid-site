@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Linkedin",
+    "fa_icon": "fab fa-linkedin",
+    "url": "https://www.linkedin.com/in/zaid-alshaikh-hasan/"
+  },
+  {
+    "title": "Github",
+    "fa_icon": "fab fa-github",
+    "url": "https://github.com/zaidh98"
+  },
+  {
+    "title": "Hugging Face",
+    "fa_icon": "custom-huggingface",
+    "url": "https://huggingface.co/zaidh98"
+  }
+
+]
